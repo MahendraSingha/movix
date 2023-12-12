@@ -1,0 +1,26 @@
+.genres {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+
+    .genre {
+        background-color: var(--pink);
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
+        white-space: nowrap;
+
+    }
+}
+
+.circleRating {
+    position: absolute;
+    bottom: 7px;
+    right: 13px;
+}
